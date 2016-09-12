@@ -1,0 +1,77 @@
+/* Estilos para los elementos*/
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 400px;
+    
+}
+h1 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+
+table,thead,tbody,tfoot,tr, td,th
+{
+  text-align: center;
+  margin: auto;
+  border:1px solid #dedede;
+  padding: 0.5rem;
+  width: 50%;
+  color: brown ; 
+  border-color: salmon;
+}
+
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color:midnightblue;
+}
+input[type="text"], input[type="password"], input[type="email"] {  /* Selector de atributo */
+    width:16em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;  
+   
+    
+   
+}
+
+input-table {
+    border: none;    
+    text-align: center;
+    margin-bottom: 0em; 
+    color: skyblue ;
+    
+    
+}
+
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+p{
+   color: seagreen;
+   width: 100%;
+   
+}
+
+.made-with-effort {
+    color:brown;
+    text-decoration: none;
+}
+/* Estilos para las clases */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+
